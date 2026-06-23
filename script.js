@@ -1,10 +1,9 @@
 function shortcut(s1, s2) {
 	let ans = "";
 	if(s1.length !== 0 && s2.length !== 0){
-		ans += `${s1[0]}${s2[0]}`;
-	}else{
-		return ans;
+		ans += s1[0] + s2[0]
 	}
+	return ans;
 }
 
 // Do not change the code below.
